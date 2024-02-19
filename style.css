@@ -78,3 +78,29 @@ form button {
     font-size: 1.15rem;
     cursor: pointer;
 }
+@media screen and (max-width: 768px){
+    .container {
+        width: 80%;
+    }
+    .select-container {
+        width: 5rem;
+        
+    }
+    .select-container img {
+        max-width: 1.5rem;
+    }
+    .dropdown i {
+        font-size: 1.25rem;
+    }
+    form input {
+        font-size: 0.9rem;
+    }
+    form button {
+        font-size: 1rem;
+    }
+    .msg {
+        font-size: 0.9rem;
+    }
+
+    
+}
